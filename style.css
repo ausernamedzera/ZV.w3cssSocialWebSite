@@ -4,14 +4,16 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     --navbarcolor: rgb(78, 99, 116);
-    --navbarlogocolor:  rgb(65, 76, 86);
+    --navbarlogocolor:  rgb(50, 58, 67);
     --bg: rgb(228, 228, 228);
+    --ikoncolor: rgb(115, 141, 163);
 }
 .all{
     background-color: var(--bg);
     width: 100%; 
     height: 100vh;
 }
+
 /* NAVBAR */
 .container{
     display: block;
@@ -97,3 +99,109 @@
 
 
 /* MY PROFILE */
+.myprofile{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    border: 1px solid rgba(185, 182, 182, 0.536);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    width: 330px;
+    height: 310px;
+    margin: 18px;
+    margin-top: 30px;
+    background: white;
+    border-radius: 2%;
+
+}
+
+.myprofile-ch img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+.myprofile-ch h4{
+    padding: 15px;
+    
+
+}
+.myprofile-ch p{
+    padding: 9px;
+}
+#personal{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 9px; 
+}
+#personal i{
+    margin-right: 19px;
+    margin-left: -5px;
+    color: var(--ikoncolor);
+    font-size: small;
+}
+#personal p{
+    font-size: 15px;
+
+}
+.divider {
+    border: none; 
+    border-top: 1px solid rgb(200, 200, 200);
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+    width: 270px; 
+    opacity: .3;
+}
+
+/* EVENTS */
+
+.events{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 330px;
+    background-color: var(--ikoncolor);
+    border: 1px solid rgba(185, 182, 182, 0.536);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    margin: 18px;
+    border-radius: 3%;
+}
+
+.events-in{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 100%; 
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.events-in p{
+    padding: 10px;
+    margin: 0px;
+    color: white;
+}
+.events i{
+    padding-right: 13px;
+    padding-left: 5px;
+}
+.events a{ 
+    text-align: left;
+    width: 100%;
+    text-decoration: none;
+}
+.events a:hover{
+    background-color: rgb(195, 192, 192);
+    
+}
+.events a:hover p{
+    color: black;
+}
+
+/* INTERESTS */
