@@ -12,14 +12,16 @@
 .all{
     background-color: var(--bg);
     width: 100%; 
-    height: 100%;
+    height: 500vh;
 }
+
 
 /* NAVBAR */
 .container{
     display: block;
     width: 100%;
 } 
+
 #navbar{
     display: block;
     justify-content: space-between;
@@ -97,7 +99,15 @@
     padding: auto;
 }
 
-
+/* LEFT CONTAINERS */
+.left-containers{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    float: left;
+}
 
 /* MY PROFILE */
 .myprofile{
@@ -124,7 +134,9 @@
 
 }
 .myprofile-ch h4{
-    padding: 15px;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 12px;
     
 
 }
@@ -255,4 +267,42 @@
 }
 .msg-alert:hover{
     background-color: rgb(173, 188, 202);
+}
+
+/* Center Containers */
+.center-containers{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    float: left;
+}
+
+/* POST */
+
+.post {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    border: 1px solid rgba(185, 182, 182, 0.536);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 3%;
+
+    width: 620px;
+}
+
+/* Right Container */
+
+.right-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    float: right;
 }
