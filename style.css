@@ -370,3 +370,20 @@
     margin: 15px;
 }
 
+.bug{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 1px solid rgba(185, 182, 182, 0.536);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 3%;
+    
+    width: 210px;
+    height: 250px;
+    margin: 15px;
+    font-size: 40px;
+}
