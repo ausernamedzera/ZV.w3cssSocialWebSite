@@ -7,11 +7,12 @@
     --navbarlogocolor:  rgb(50, 58, 67);
     --bg: rgb(228, 228, 228);
     --ikoncolor: rgb(115, 141, 163);
+    --alert: rgb(194, 208, 220);
 }
 .all{
     background-color: var(--bg);
     width: 100%; 
-    height: 100vh;
+    height: 100%;
 }
 
 /* NAVBAR */
@@ -205,3 +206,53 @@
 }
 
 /* INTERESTS */
+.interests{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    text-wrap: wrap;
+    border: 1px solid rgba(185, 182, 182, 0.536);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 330px;
+    height: 120px;
+    padding: 0px;
+    margin: 18px;
+    border-radius: 3%;
+}
+.interests p{
+    margin-right: 5px;
+    text-wrap: wrap;
+}
+
+/* MSG ALERT */
+
+.alert{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid rgba(185, 182, 182, 0.536);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--alert);
+    color: black;
+    width: 320px;
+
+}
+.msg-alert{
+    margin: -20px;
+    width: 40px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background-color: rgb(166, 180, 193);
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.msg-alert:hover{
+    background-color: rgb(173, 188, 202);
+}
