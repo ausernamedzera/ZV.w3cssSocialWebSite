@@ -13,15 +13,14 @@
 .all{
     background-color: var(--bg);
     width: 100%; 
-    height: 500vh;
+    height: auto;
 }
-
 
 /* NAVBAR */
 .container{
     display: block;
     width: 100%;
-} 
+}
 
 #navbar{
     display: block;
@@ -296,6 +295,9 @@
 .upcoming p{
     margin: 8px;
 }
+.uc{
+    padding: 12px;
+}
 .upcoming h4{
     margin: 15px;   
 }
@@ -428,7 +430,7 @@
 .post {
     display: flex;
     align-items: left;
-    text-align: center;
+    text-align: left;
     justify-content: flex-start;
     flex-direction: column;
     float: left;
@@ -441,6 +443,8 @@
     height: 150px;
     margin-top: 30px;
     padding: 20px;
+
+    border-radius: 1%;
 }
 .pp p{
     display: flex;
@@ -491,6 +495,10 @@
     background-color: white;
 
     margin-top: 15px;
+    width: 709px;
+
+    border-radius: 1%;
+
 }
 .shares1 p{
     margin-left: 20px;
@@ -550,6 +558,7 @@
 }
 .share p{
     display: flex;
+    text-align: left;
 
 }
 .photos{
@@ -618,3 +627,37 @@
 .img-nature{
     padding: 15px;
 }
+
+.footer{
+    color: white;
+}
+
+.footer1{
+    background-color: var(--navbarcolor);
+    width: 100%;
+    height: 90px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+}
+.footer footer{
+    background-color: var(--navbarlogocolor);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+}
+.footer h4{
+    font-weight: 2;
+    font-size: 15px;
+}
+.footer a{
+    color: white;
+}
+
