@@ -33,7 +33,7 @@
 #navbar ul{
     list-style-type: none;
     background: var(--navbarcolor);
-    overflow: hidden;
+    overflow: visible;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -78,9 +78,53 @@
     justify-content: center;
     border-radius: 60px;
 }
-.notification-count p{
-
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
+.hide {
+    display: none;
+    position: absolute;
+    background-color: var(--bg);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    
+    top: 100px; /* Bildirim ikonunun altına */
+    left: 0;   /* Bildirim ikonuyla hizalı */
+    z-index: 100; /* Üstte görünmesi için */
+}
+ .hide ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.hide .li {
+    
+}
+.notification:hover  .hide{
+    display: block;
+}
+.hide ul li {
+    color: black;
+}
+
+.hide ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Hover efekti */
+    cursor: pointer;
+}
+
 .logo{
     align-items: center;
     text-align: center;
