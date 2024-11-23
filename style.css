@@ -301,9 +301,10 @@
 /* INTERESTS */
 .interests{
     display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
+    text-align: left;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
     text-wrap: wrap;
     border: 1px solid rgba(185, 182, 182, 0.536);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -314,7 +315,8 @@
     margin: 18px;
 }
 .interests p{
-    margin-right: 5px;
+    padding: 5px;
+    margin: 5px;
     text-wrap: wrap;
 }
 
